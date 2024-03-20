@@ -40,7 +40,7 @@ export default function Navbar() {
                         </ul>
                         {(!localStorage.getItem("authToken")) ?
                             <div className='d-flex'>
-                                <Link className="btn bg-dark   mx-1" to="/login">Login</Link>
+                                <Link className="btn bg-dark text-white mx-1" to="/login">Login</Link>
                                 <Link className="btn bg-dark text-white mx-1" to="/createuser">Signup</Link>
 
                             </div>
